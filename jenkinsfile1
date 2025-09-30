@@ -13,7 +13,7 @@ pipeline {
                 cleanWs()
             }
         }
-        stage ("Git Checkout") {
+        stage ("Git Checkout.") {
             steps {
                 git "https://github.com/Saiekku7/DevOps-Project-Zomato.git/"
             }
